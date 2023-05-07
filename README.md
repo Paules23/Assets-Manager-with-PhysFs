@@ -58,14 +58,12 @@ However, by using PhysicsFS, we can write a single piece of code that works with
 <h3  align="center" >Important concepts that you might not know</h3>
 
 <ul>
-  <li><b>Virtual file system:</b> Basically a virtual file system is a virtual folder in which tou can access many different folder regardless of their physical position in the computer</li>
+  <li><b>Virtual file system:</b> Basically a virtual file system is a virtual folder in which you can access many different folder regardless of their physical position in the computer</li>
 
+  <li><b>Buffer:</b> It's a temporal zone of the memory that is used to store data that is being transferred from one part of the program to another. An example is when a program is reading a file, like in our case with the PhysFS_read functiob.</li>
 
-  <li><b>Buffer:</b> It's a temporal zone of the memory that is used to store data that is being transfered from one part of the program to another. An example is when a program is reading a file, like in our case with the PhysFS_read functiob.</li>
+  <li><b>Abstract access:</b> Providing abstract access means that the PhysicsFS library provides a standardized interface or set of functions that allow developers to access files stored in various archive formats in a uniform way, regardless of the underlying details of those archives.</li>
 </ul>
-
-
-
 
 <h3  align="center" id="nesdlfunctions">Necessary SDL Functions</h3>
 
