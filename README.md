@@ -69,7 +69,7 @@ However, by using PhysicsFS, we can write a single piece of code that works with
 
 <p align="justify">To upload files with this new methodology, we will not be able to use the same upload functions with SDL. In this way, from now on, we must know <b>SDL_RWops</b> and all its derivatives.</p> 
 
-<p align="justify"> SDL_RWops is a data structure that is used to manipulate I/O files. it is used to do operationsn of reading and wirting in different file such as binary files, audio video and more. so with this that structure we won't need to take care of any of the specific details of every file. Also it allows you to read and write in copmpressed or encypted files.
+<p align="justify">SDL_RWops is a data structure that is used to manipulate I/O files. it is used to do operations of reading and writing in different file such as binary files, audio video and more. so with this that structure we won't need to take care of any of the specific details of every file. Also it allows you to read and write in compressed or encrypted files.
 </p> 
 
 <p align="justify">The functions we currently use should be replaced by:</p> 
